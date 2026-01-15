@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <vector>
 
 void printBoard(int board[3][3]) {
     for (int row = 0; row < 3; row++) {
@@ -185,4 +184,5 @@ int main() {
     else {std::cout << "The game is a draw!";}
 
     return 0;
+
 }
